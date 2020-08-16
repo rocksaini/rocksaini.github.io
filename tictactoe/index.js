@@ -9,13 +9,10 @@ const elm = document.querySelectorAll("[data-cell]");
 const board = document.getElementById("board");
 
 const winningMessageElement = document.getElementById("winningMessage");
-console.log(board);
 
 const MessageText = document.querySelector('[data-Winning-message-text]');
-console.log(MessageText)
 
 const restartButton = document.getElementById("restartButton")
-console.log(restartButton)
 
 const winningCombinatin = [
     [0, 1, 2],
